@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Productivity Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="productivity.png">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1>Productivity Dashboard</h1>
+
+            <button id="themeBtn">
+                🌙 Dark Mode
+            </button>
+
+        </header>
+
+        <section class="clock-section">
+
+            <h2>Current Time</h2>
+
+            <p id="clock">
+                00:00:00
+            </p>
+
+        </section>
+
+        <section class="task-section">
+
+            <div class="task-header">
+
+                <h2>My Tasks</h2>
+
+                <span id="taskCount">
+                    Tasks: 0
+                </span>
+
+            </div>
+
+            <div class="task-input">
+
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="Enter a task">
+
+                <button id="addTaskBtn">
+                    Add Task
+                </button>
+
+            </div>
+
+            <ul id="taskList"></ul>
+
+        </section>
+
+        <section class="quote-section">
+
+            <h2>Quote of the Day</h2>
+
+            <p id="quoteText">
+                Click below to generate a quote.
+            </p>
+
+            <button id="quoteBtn">
+                New Quote
+            </button>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
